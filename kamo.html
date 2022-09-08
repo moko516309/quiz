@@ -1,16 +1,27 @@
 <!DOCTYPE html>
+<html lang="ja" >
 <head>
-  <meta charset="utf-8">
-  <title>Suzuki-study-note</title>
-  <meta name="description" content="書籍「動くWebデザインアイディア帳」のサンプルサイトです">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
-  <link href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css" rel="stylesheet">
-  <link href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-1-4/css/4-1-4.css" rel="stylesheet">
-  <link href="http://ss775432.stars.ne.jp/kamo.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by reon.negi</title>
+  <link rel="stylesheet" href="./style.css">
   <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
+<body>
+<!-- partial:index.partial.html -->
+<button id="done-button" class="font-bold text-6xl bg-red-300">ようこそ</button>
+<button id="pending-button" hidden>未完了</button>
+<div id="done-content">
+ <a class="font-bold text-6xl bg-red-800">テスト周回ゲー</a>
+</div>
 
+<div id="pending-content">
+  <li hidden>未完了 1</li>
+  <li hidden>未完了 2</li>
+  <li hidden>未完了 3</li>
+</div>
+<!-- partial -->
+  <script  src="./script1.js"></script>
 
-<a class="sine">TEST</a>
+</body>
+</html>
