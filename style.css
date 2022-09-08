@@ -1,3 +1,21 @@
-#all-answers-container {
-  margin-top: 2em;
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+li {
+  font-size: 23px;
+}
+
+#pending-content, #done-content {
+  display: none;
+}
+
+#pending-button.active, #done-button.active{
+  color: blue;
+  background-color: orange;
+}
+
+#pending-content.active, #done-content.active {
+  display: block;
 }
